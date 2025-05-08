@@ -337,6 +337,9 @@ body {
 }
 
 @media (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
   .main {
     grid-column: 1/2;
     grid-template-columns: 1fr;
@@ -364,6 +367,7 @@ body {
 
   .header {
     grid-column: 1/2;
+    grid-template-columns: auto;
   }
 }
 @media (min-width: 768px) {
